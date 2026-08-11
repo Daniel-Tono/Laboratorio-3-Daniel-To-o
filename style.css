@@ -1,0 +1,183 @@
+body{
+    font-family: Arial, sans-serif;
+    color: #1F1F1F;
+    margin: 0;
+}
+header{
+    text-align: end;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    margin-top: 3px;
+}
+.imgnav{
+        width: 30px;
+        margin: 0;
+        cursor: pointer;
+    }
+.ahead{
+    text-decoration: none;
+    color: #1F1F1F; 
+    font-size: 10pt; 
+    padding: 2px; 
+    align-items: center;
+}
+.buttonhead{
+    border: none;
+    border-radius: 20px;
+    background-color: #1B62D3;
+    color: white;
+    padding: 15px;
+}
+.imgicon{
+    width: 30px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 1px 0px;
+    display: flex;
+    align-items: center;
+}
+.barranav{
+    text-align: center;
+    border: 1px solid #1F1F1F;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin: 15px 250px;
+    padding: 5px;
+    justify-content: space-between;
+}
+.buttonnav{
+        border-radius: 60px;
+        background-color: #F3F5F6 ;
+        width: 150px;
+        align-items: center;
+        text-decoration: none;
+        color: #1F1F1F;
+        cursor: pointer;
+    }
+.logogoogle{
+    margin-top: 15px;
+    text-align: center;
+    & img{
+        width: 20%;
+    }
+}
+.inputnav{
+    border: none;
+    cursor: text;
+    width: 500px;
+    height: 35px;
+}
+.botonextra{
+    text-align: center;
+    & button{
+        border: none;
+        border-radius: 10px;
+        background-color: #F8F9FA ;
+        padding: 15px;
+        margin: 15px 10px;
+        cursor: pointer;
+    }
+}
+.espanol{
+    text-align: center;
+    margin-top: 15px;
+    & p{
+        font-size: 10pt;
+        & a{
+            text-decoration: none;
+            color: #1B62D3;
+        }
+    }
+}
+footer{
+    width: 100%;
+    background-color: #F3F5F6 ;
+    position:fixed;
+    bottom: 0;
+    padding: 15px;
+    & a{
+        text-decoration: none;
+        color: #1F1F1F;
+        margin: 1px 5px;
+    }
+}
+.aespecial{
+    margin-right: 500px;
+}
+.buttonhead:hover{
+    background-color: #083f97;
+}
+.ahead:hover{
+    text-decoration: underline;
+}
+/*campus*/
+.fondo{
+    background-image: url(imagenes_colegio/campus.png);
+    height: 630px;
+}
+.gif{
+    width: 50%;
+    display: block;
+}
+.descarga{
+    display: block;
+    color: white;
+    font-size: 25pt;
+    margin-left:45px;
+}
+.apps{
+    & img{
+    width: 150px;
+    margin: 10px;
+    }
+}
+.apps1{
+        margin-left: 45px;
+    & img{
+    width: 150px;
+    margin: 10px;
+
+    }
+}
+.divlogo{
+    text-align: center;
+}
+.logo{
+    width: 40%;
+}
+.divgif{
+    text-align: center;
+}
+.fila{
+    height: 500px;
+}
+.bienvenida{
+    color:  #023859;
+    font-size: 30pt;
+    margin: 0;
+}
+.inputcampus{
+    border: solid 1px black;
+    border-radius: 5px;
+    height: 50px;
+    margin: 15px;
+    width: 300px;
+}
+.check{
+    color: #023859;
+}
+.spancampus{
+    color: #023859;
+    font-weight: bold;
+}
+.botoncampus{
+    color: white;
+    background-color: #023859;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+}
+
